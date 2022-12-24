@@ -97,6 +97,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
+  background-color: #202322;
 }
 
 ul,
@@ -109,9 +111,15 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
@@ -119,11 +127,12 @@ h4 {
   font-family: "Poppins", sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 500;
 }
 
 p {
   font-size: .875em;
-  line-height: 1.285;
+  line-height: 20px;
 }
 
 img {
@@ -133,14 +142,56 @@ img {
 figure {
 
 }
- address {
+
+.feature-item-descriptions {
+  text-align: center;
+}
+ 
+ address p {
   font-style: normal;
+  line-height: 25px;
+  text-align: center;
  }
+
+h4 {
+  text-align: center;
+}
 
  .content-wrapper {
   width: 90%;
   margin: 50px 0;
  }
+
+ aside {
+  background-color: #527158;
+ }
+
+ /***** Email form code ****/
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /************************* Base Header - Footer Styles **************************/
 .content-wrapper {
@@ -150,6 +201,7 @@ figure {
 
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,6 +226,9 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125em;
 }
 
 header nav ul {
@@ -182,14 +237,28 @@ header nav ul {
   width: 100%;
 }
 
+header nav ul li {
+  font-size: 1.125em;
+}
+
 .header-divider {
+  background-color: #202322;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
 }
 
-header nav ul {
-  width: 44%;
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
