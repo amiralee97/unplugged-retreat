@@ -146,6 +146,11 @@ figure {
 .feature-item-descriptions {
   text-align: center;
 }
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
  
  address p {
   font-style: normal;
