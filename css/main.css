@@ -87,7 +87,7 @@ textarea {
    Amira's custom styles
    ========================================================================== */
 
-/*** General Style ***/
+
 
 html {
   font-size: 16px;
@@ -103,8 +103,6 @@ body {
 ul,
 ol {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -117,7 +115,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
   font-weight: 500;
-  margin: 0;
 }
 
 h3,
@@ -253,7 +250,7 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
-/* Hero Area */
+
 
 .hero-area {
   background: url(../img/main-image.jpg);
@@ -272,7 +269,7 @@ footer .copyright {
   line-height: 1.2; 
 }
 
-/* Aside */
+
 
 aside {
   background-color: #527158;
@@ -308,7 +305,7 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/* Features */
+
 
 .features {
   background: url('../img/group-legs.jpg');
@@ -345,7 +342,7 @@ input[type=button] {
   margin: 0;
 }
 
-/* Reviews */
+
 
 .reviews {
   background-color: #2a423a;
@@ -525,9 +522,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width:768px) {
-  /*Tablet styles here*/
-
-  /* General styles */
+ 
 
   .content-wrapper {
     max-width: 640px;
@@ -544,7 +539,7 @@ input[type=button] {
     line-height: 1.25;
   }
 
-  /* Header */
+
 
   header {
     justify-content: space-around;
@@ -554,6 +549,10 @@ input[type=button] {
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
@@ -568,7 +567,7 @@ input[type=button] {
     display: none;
   }
 
-  /* Hero Area */
+
 
   .hero-area {
     min-height: 600px;
@@ -580,7 +579,7 @@ input[type=button] {
     margin: 0;
   }
 
-  /* Aside */
+
 
   aside .content-wrapper {
     margin: 50px 0;
@@ -595,7 +594,7 @@ input[type=button] {
     margin: 0;
   }
 
-  /* Features */
+
 
   .features h2 {
     margin-bottom: 20px;
@@ -618,7 +617,6 @@ input[type=button] {
   }
 
 
-  /* Reviews */
 
   .reviews article {
     display: flex;
@@ -639,7 +637,7 @@ input[type=button] {
     margin: 0;
   }
 
-  /* Footer */
+
 
   footer .content-wrapper {
     width: 65%;
@@ -758,27 +756,24 @@ input[type=button] {
   }
 
 
-  /* Hero */
   .hero-area h1 {
-    width: 60%;
+    font-size: 3.75em;
     width: 80%;
   }
 
-  /* Aside */
   aside .content-wrapper {
     justify-content: space-around;
   }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
     font-size: 1.125em;
   }
 
-  /* Features */
 
   .features h2 {
     width: 90%;
@@ -788,7 +783,7 @@ input[type=button] {
     flex-basis: 33%;
   }
 
-  /* Reviews */
+
 
   .reviews h2 {
     padding-bottom: 50px;
@@ -826,6 +821,7 @@ input[type=button] {
     ========================================================================== */
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq h4,
