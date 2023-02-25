@@ -576,7 +576,7 @@ input[type=button] {
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
-    margin: 0;
+    width: 80%;
   }
 
 
@@ -738,7 +738,7 @@ input[type=button] {
 
   .content-wrapper {
     max-width: 960px;
-    margin: 100px 0;
+    /* margin: 100px 0; */
   }
 
   h2 {
@@ -757,8 +757,9 @@ input[type=button] {
 
 
   .hero-area h1 {
-    font-size: 3.75em;
-    width: 80%;
+    font-size: 3.85em;
+    width: 60%;
+    margin: 120px 0;
   }
 
   aside .content-wrapper {
