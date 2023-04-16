@@ -17,8 +17,7 @@ The website was built using HTML5, CSS3, and JavaScript. The layout was created 
 
 Users can navigate to the website using the following URL: **[https://amiralee97.github.io/unplugged-retreat/](https://amiralee97.github.io/unplugged-retreat/)**
 
-From there, they can explore the different pages of the website by clicking on the links in the navigation bar. The carousel slider can be controlled by clicking on the arrow buttons or the dots at the bottom of the slider.
-
+From there, they can explore the different pages of the website by clicking on the links in the navigation bar. 
 
 ## **Contributions**
 
