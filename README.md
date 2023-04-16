@@ -19,7 +19,6 @@ Users can navigate to the website using the following URL: **[https://amiralee97
 
 From there, they can explore the different pages of the website by clicking on the links in the navigation bar. The carousel slider can be controlled by clicking on the arrow buttons or the dots at the bottom of the slider.
 
-To contact the company, users can fill out the contact form on the "Contact Us" page. The form will ensure that all required fields are filled out before allowing the user to submit the form. Once the form is submitted, a confirmation message will appear letting the user know that their message was sent successfully.
 
 ## **Contributions**
 
